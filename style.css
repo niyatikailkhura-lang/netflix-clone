@@ -16,8 +16,28 @@
     background-color: black;
     position:absolute;
     top: 0;
+    z-index: 1;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    position: relative;
+    z-index: 2;
 }
 nav img{
    margin-left: 60px;
    margin-top: 10px;
+   filter: brightness(1.5);
+}
+nav div{
+    display: flex;
+    gap: 10px;
+    position: relative;
+    z-index: 10;
+}
+.btn-red-sm{
+    background-color: red;
+    color: white;
 }
