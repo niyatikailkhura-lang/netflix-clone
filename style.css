@@ -53,3 +53,9 @@ nav div{
     position: relative;
     z-index: 2;
 }
+.butn{
+    background-color: red; 
+    color: white; 
+    height: 30px; 
+    width: 150px;
+}
