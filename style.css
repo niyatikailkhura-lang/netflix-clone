@@ -93,6 +93,7 @@ nav div{
     gap: 0;
     overflow-x: auto;
     padding: 20px 0;
+    width: auto;
 }
 .card{
     flex-shrink: 0;
@@ -109,4 +110,26 @@ nav div{
     transform: scale(1.08);
     transition: 0.3s;
     cursor: pointer;
+}
+.cards::-webkit-scrollbar{
+    display: none;
+}
+.reasons{
+    background-color: #000;
+}
+.reasons h5{
+    color: white;
+    margin-bottom: 10px;
+}
+.reason-card{
+    padding:10px;
+    color: white;
+    background-color: #0d042e;
+    width: 90%;
+    height: 100px;
+    margin-bottom: 5px;
+    border-radius:10px ;
+}
+.reason-card h3{
+    margin-top: 20px;
 }
