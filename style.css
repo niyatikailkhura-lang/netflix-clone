@@ -133,3 +133,28 @@ nav div{
 .reason-card h3{
     margin-top: 20px;
 }
+.faq{
+    margin-top:-20px;
+    background-color: #000;
+}
+.faq h3{
+    padding: 20px;
+    color: white;
+    margin-top: 20px;
+    background-color: #000;
+}
+.faqcard{
+    background-color: rgb(80, 75, 75);
+    color: white;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-top: 10px;
+}
+.secondbtn{
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
