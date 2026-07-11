@@ -158,3 +158,27 @@ nav div{
     padding: 20px;
     text-align: center;
 }
+.text{
+    background-color: #000;
+    color: white;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 30px;
+    gap: 10px;
+}
+.links div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.lang{
+    background-color: #000;
+    padding: 50px;
+}
+select{
+    background-color: #000;
+    color: white;
+}
+
